@@ -1,4 +1,3 @@
-import ima from "../public/post.png"
 
 interface IPost {
   id: number;

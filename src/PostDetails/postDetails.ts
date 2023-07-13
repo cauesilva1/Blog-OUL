@@ -272,6 +272,7 @@ let postDetails: postDetails[] = [
 ];
 
 function renderPostDetails() {
+  
   const urlParams = new URLSearchParams(window.location.search);
 
   const id = urlParams.get("id") as string;

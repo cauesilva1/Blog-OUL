@@ -132,3 +132,74 @@ main{
     line-height: 1.25rem;
     letter-spacing: 0.1rem;
 }
+
+@media(min-width: 1440px){
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.postDetals{
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+main img{
+    width: 20rem;
+    height: auto;
+}
+
+.postDetals{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 20rem;
+    height: auto;
+}
+
+.infPost{
+    width: 2rem;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.postDetals p{
+    /* transform: translateX(-1.5rem); */
+    margin: 0;
+    width: 18rem;
+    /* font-size: 1rem; */
+}
+.postDetals h2{
+    margin: 0;
+    width: 19rem;
+    padding-bottom: 1rem;
+
+}
+.Coments{
+    width: 18rem;
+}
+
+.comentUser{
+    width: 1rem;
+    padding: 1rem;
+}
+
+.UserInf{
+    font-size: 0.9rem;
+    width: 10rem;
+    transform: translateX(-10rem);
+    flex-direction: column;
+}
+
+.UserComent{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 15rem;
+}
+
+}
