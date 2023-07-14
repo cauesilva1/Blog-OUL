@@ -275,7 +275,7 @@ function renderPostDetails() {
   
   const urlParams = new URLSearchParams(window.location.search);
 
-  const id = urlParams.get("id") as string;
+  const id = urlParams.get("id") as string; 
 
   const filterPostById = postDetails.find(
     (post) => post.id === parseInt(id, 10)
